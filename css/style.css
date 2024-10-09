@@ -1,0 +1,32 @@
+:root {
+    --light-blue: #B4D0E7;
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #0161FF;
+    --light-grey: #F5F5F5;
+    --purple: #753f63; 
+    --logo-color-green: #A3D39B;
+    --logo-color-burgundy:  #61082B;
+    --logo-color-blue: #0093CE;
+    --logo-color-light-red: #FF1D1D;
+    --logo-color-red: #FF1D1D;
+    --logo-color-dark-blue: #0D2481;
+    --logo-color-yellow: #FFD830;
+}
+
+/*----generals----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open sans', sans-serif;
+    color: var(--black)
+}
