@@ -4,9 +4,9 @@
     --white: #ffffff;
     --blue: #0161FF;
     --light-grey: #F5F5F5;
-    --purple: #753f63; 
+    --purple: #753f63;
     --logo-color-green: #A3D39B;
-    --logo-color-burgundy:  #61082B;
+    --logo-color-burgundy: #61082B;
     --logo-color-sky: #0093CE;
     --logo-color-light-red: #FF1D1D;
     --logo-color-red: #FF1D1D;
@@ -33,6 +33,7 @@ body {
 
 ul {
     list-style: none;
+    gap: 25px;
 }
 
 img {
@@ -48,7 +49,7 @@ a {
     text-decoration: none;
 }
 
-p{
+p {
     line-height: 1.5;
 }
 
@@ -120,7 +121,7 @@ p{
 /*----backgrounds----*/
 
 .bg-light-blue {
-    background-color: rgb(145, 185, 225); 
+    background-color: rgb(145, 185, 225);
 }
 
 .bg-green {
