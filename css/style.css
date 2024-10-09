@@ -40,6 +40,10 @@ img {
     display: block;
 }
 
+h1 {
+    font-size: 5em;
+}
+
 /*----utilities----*/
 
 .debug {
@@ -79,6 +83,14 @@ img {
     flex-wrap: wrap;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
 /*----background----*/
 
 .bg-light-blue {
@@ -86,6 +98,7 @@ img {
 }
 
 /*----header----*/
+
 header {
     background-color: white;
     padding: 20px;
@@ -109,6 +122,19 @@ header img {
 #jumbo.container {
     position: relative;
     top: 70px;
+}
+
+#plans {
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.col {
+    width: calc(100% / 3);
 }
 
 .customers-brand>div {
