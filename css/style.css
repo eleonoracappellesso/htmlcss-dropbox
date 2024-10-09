@@ -55,9 +55,9 @@ p {
 
 /*----utilities----*/
 
-.debug {
+/*.debug {
     border: 1px solid red;
-}
+}*/
 
 .container {
     max-width: 1200px;
@@ -90,6 +90,10 @@ p {
 
 .t-purple {
     color: var(--purple);
+}
+
+.t-center {
+    text-align: center;
 }
 
 /*----flex utilities----*/
@@ -154,6 +158,10 @@ p {
 
 .bg-light-grey {
     background-color: var(--light-grey);
+}
+
+.border-grey {
+    border: 1px solid var(--light-grey);
 }
 
 /*----header----*/
