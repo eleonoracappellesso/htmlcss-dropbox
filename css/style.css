@@ -35,6 +35,11 @@ ul {
     list-style: none;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 /*----utilities----*/
 
 .debug {
@@ -52,6 +57,14 @@ ul {
     margin: 0 auto;
 }
 
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
 /*----flex utilities----*/
 
 .d-flex {
@@ -60,6 +73,10 @@ ul {
 
 .space-between {
     justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 /*----background----*/
@@ -79,12 +96,28 @@ header {
     z-index: 1000;
 }
 
-/*----page----*/
+header img {
+    height: ;
+}
+
+/*----main----*/
 
 #jumbo {
     padding-top: 100px;
 }
 
+#jumbo.container {
+    position: relative;
+    top: 70px;
+}
+
+.customers-brand>div {
+    width: calc(100% / 3);
+}
+
+.brand {
+    width: 50%;
+}
 
 /*----footer----*/
 

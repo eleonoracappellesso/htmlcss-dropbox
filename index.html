@@ -18,6 +18,7 @@
 <body>
     <!-- header -->
     <header class="debug">
+
         <nav class="d-flex space-between">
             <ul class="d-flex">
                 <li><a href="#">1</a></li>
@@ -25,6 +26,7 @@
                 <li><a href="#">3</a></li>
                 <li><a href="#">4</a></li>
             </ul>
+
             <ul class="d-flex">
                 <li><a href="#">1</a></li>
                 <li><a href="#">2</a></li>
@@ -33,7 +35,7 @@
             </ul>
         </nav>
     </header>
-    
+
     <!-- main -->
     <main class="debug">
 
@@ -42,8 +44,13 @@
                 <h1>
                     titolo
                 </h1>
-                <div>
-                    testo e immagine
+                <div class="d-flex">
+                    <div class="w-30 debug">
+                        text
+                    </div>
+                    <div class="w-70 debug">
+                        image
+                    </div>
                 </div>
             </div>
         </section>
@@ -74,8 +81,20 @@
             <div class="customers-t container-s debug">
                 testo
             </div>
-            <div class="customers-brand debug">
-                sezione con loghi
+            <div class="customers-brand d-flex debug">
+                <div class="d-flex flex-wrap">
+                    <div class="brand">1</div>
+                    <div class="brand">2</div>
+                    <div class="brand">3</div>
+                    <div class="brand">4</div>
+                </div>
+                <div class="d-flex debug">center</div>
+                <div class="d-flex flex-wrap debug">
+                    <div class="brand">1</div>
+                    <div class="brand">2</div>
+                    <div class="brand">3</div>
+                    <div class="brand">4</div>
+                </div>
             </div>
         </section>
 
@@ -102,6 +121,7 @@
                 bottom
             </div>
         </div>
+    </footer>
 </body>
 
 </html>
