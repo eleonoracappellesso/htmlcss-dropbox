@@ -7,7 +7,7 @@
     --purple: #753f63; 
     --logo-color-green: #A3D39B;
     --logo-color-burgundy:  #61082B;
-    --logo-color-blue: #0093CE;
+    --logo-color-sky: #0093CE;
     --logo-color-light-red: #FF1D1D;
     --logo-color-red: #FF1D1D;
     --logo-color-dark-blue: #0D2481;
@@ -87,20 +87,56 @@ h1 {
     flex-direction: row-reverse;
 }
 
+.align-items-center {
+    align-items: center;
+}
+
 .align-items-stretch {
     align-items: stretch;
 }
 
-/*----background----*/
+/*----backgrounds----*/
 
 .bg-light-blue {
     background-color: rgb(145, 185, 225); 
 }
 
+.bg-green {
+    background-color: var(--logo-color-green);
+}
+
+.bg-burgundy {
+    background-color: var(--logo-color-burgundy);
+}
+
+.bg-sky {
+    background-color: var(--logo-color-sky);
+}
+
+.bg-light-red {
+    background-color: var(--logo-color-light-red);
+}
+
+.bg-red {
+    background-color: var(--logo-color-red);
+}
+
+.bg-dark-blue {
+    background-color: var(--logo-color-dark-blue);
+}
+
+.bg-yellow {
+    background-color: var(--logo-color-yellow);
+}
+
+.bg-light-grey {
+    background-color: var(--light-grey);
+}
+
 /*----header----*/
 
 header {
-    background-color: white;
+    background-color: var(--white);
     padding: 20px;
     position: fixed;
     width: 100%;
@@ -130,18 +166,28 @@ header img {
 
 .row {
     display: flex;
-    gap: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .col {
-    width: calc(100% / 3);
+    width: calc((100% - 20px) / 3);
 }
 
 .customers-brand>div {
     width: calc(100% / 3);
+    height: calc(100vw / 3);
 }
 
 .brand {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img {
     width: 50%;
 }
 
@@ -150,4 +196,5 @@ header img {
 footer {
     background-color: var(--black);
     color: var(--white);
+    padding-top: 20px;
 }
