@@ -30,3 +30,43 @@ body {
     font-family: 'Open sans', sans-serif;
     color: var(--black)
 }
+
+/*----utilities----*/
+
+.debug {
+    border: 1px solid red;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-s {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*----flex utilities----*/
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+/*----background----*/
+
+.bg-light-blue {
+    background-color: rgb(145, 185, 225); 
+}
+
+/*----footer----*/
+
+footer {
+    background-color: var(--black);
+    color: var(--white);
+}
