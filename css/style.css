@@ -215,11 +215,11 @@ h4 {
 /*----borders----*/
 
 .border-grey {
-    border: 1px solid var(--light-grey);
+    border: 1px solid var(--grey);
 }
 
 .bottom-grey {
-    border-bottom: 1px solid var(--light-grey);
+    border-bottom: 1px solid var(--grey);
 }
 
 .top-black {
