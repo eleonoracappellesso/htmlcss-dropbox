@@ -348,6 +348,10 @@ section , .customers-brand {
     filter: invert(100%);
 }
 
+.fa-angle-down {
+    margin-left: 200px;
+}
+
 .dropdown {
     display: none;
 }
@@ -364,4 +368,22 @@ footer {
     color: var(--white);
     padding-top: 20px;
     margin-top: 100px;
+}
+
+footer hr {
+    color: var(--white);
+    width: 10%;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fa-earth-americas {
+    color: var(--grey);
+}
+
+#languages {
+    background-color: var(--black);
+    color: var(--grey);
+    border: none;
 }
