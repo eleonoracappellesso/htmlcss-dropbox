@@ -234,14 +234,18 @@ section {
     margin-left: 20px;
 }
 
+#features h3 {
+    line-height: normal;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 40px;
 }
 
 .col {
-    width: calc((100% - 20px) / 3);
+    width: calc((100% - 80px) / 3);
 }
 
 .col hr {
