@@ -92,8 +92,16 @@ p {
     color: var(--purple);
 }
 
+.t-blue {
+    color: var(--blue);
+}
+
 .t-center {
     text-align: center;
+}
+
+.t-underline {
+    text-decoration: underline;
 }
 
 /*----flex utilities----*/
@@ -186,7 +194,7 @@ header ul li a {
 
 /*----main----*/
 
-section {
+section , .customers-brand { 
     margin-top: 100px;
 }
 
