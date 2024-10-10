@@ -83,6 +83,14 @@ p {
     padding: 15px;
 }
 
+.p-top-40 {
+    padding-top: 40px;
+}
+
+.p-bottom-40 {
+    padding-bottom: 40px;
+}
+
 .m-top {
     margin-top: 25px;
 }
@@ -103,6 +111,16 @@ p {
 
 .t-underline {
     text-decoration: underline;
+}
+
+.t-bold {
+    font-weight: bold;
+    color: black;
+}
+
+.t-lighter {
+    font-weight: lighter;
+    color: black;
 }
 
 /*----flex utilities----*/
@@ -169,12 +187,22 @@ p {
     background-color: var(--light-grey);
 }
 
+/*----borders----*/
+
 .border-grey {
     border: 1px solid var(--light-grey);
 }
 
 .bottom-grey {
     border-bottom: 1px solid var(--light-grey);
+}
+
+.top-black {
+    border-top: 1px solid var(--black);
+}
+
+.bottom-black {
+    border-bottom: 1px solid var(--black);
 }
 
 /*----header----*/
@@ -225,6 +253,12 @@ section , .customers-brand {
     background-color: var(--white);
     color: var(--black);
     border: 1px solid var(--black);
+    padding: 12px 25px;
+}
+
+.btn-white-no-border {
+    background-color: var(--white);
+    color: var(--black);
     padding: 12px 25px;
 }
 
@@ -279,15 +313,21 @@ section , .customers-brand {
     font-weight: bolder;
 }
 
-#customers img {
-    padding: 30px;
-    width: 70%;
+#customers-t img {
+    padding: 50px;
+    width: 60%;
 }
 
 #customers hr {
     color: var(--grey);
     width: 20%;
     text-align: left;
+    margin-left: 50px;
+}
+
+#customers p {
+    margin: auto 50px;
+    margin-top: 45px;
 }
 
 .customers-brand>div {
@@ -308,10 +348,20 @@ section , .customers-brand {
     filter: invert(100%);
 }
 
+.dropdown {
+    display: none;
+}
+
+ul li:hover .dropdown {
+    display: block;
+    padding-top: 30px;
+}
+
 /*----footer----*/
 
 footer {
     background-color: var(--black);
     color: var(--white);
     padding-top: 20px;
+    margin-top: 100px;
 }
