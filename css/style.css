@@ -3,7 +3,8 @@
     --black: #000000;
     --white: #ffffff;
     --blue: #0161FF;
-    --light-grey: #c7c6c6;
+    --light-grey: #F5F5F5;
+    --grey: #c7c6c6;
     --purple: #753f63;
     --logo-color-green: #A3D39B;
     --logo-color-burgundy: #61082B;
@@ -257,7 +258,7 @@ section , .customers-brand {
 }
 
 .col hr {
-    color: var(--light-grey);
+    color: var(--grey);
     width: 20%;
     text-align: left;
     margin-top: 40px;
@@ -276,6 +277,17 @@ section , .customers-brand {
 .fa-check {
     color: var(--blue);
     font-weight: bolder;
+}
+
+#customers img {
+    padding: 30px;
+    width: 70%;
+}
+
+#customers hr {
+    color: var(--grey);
+    width: 20%;
+    text-align: left;
 }
 
 .customers-brand>div {
