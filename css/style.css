@@ -228,13 +228,19 @@ section , .customers-brand {
 }
 
 #jumbo {
-    padding-top: 50px;
+    padding-top: 30px;
+    margin-top: 0;
 }
 
 #jumbo .container {
     position: relative;
     top: 100px;
 }
+
+.fa-arrow-down {
+    color: var(--black);
+    font-weight: bolder;
+} 
 
 .button {
     background-color: var(--blue);
@@ -348,6 +354,12 @@ section , .customers-brand {
     filter: invert(100%);
 }
 
+#call-to-action {
+    height: 300px;
+    align-content: center;
+    margin-top: 0;
+}
+
 .fa-angle-down {
     margin-left: 200px;
 }
@@ -376,6 +388,16 @@ footer hr {
     text-align: left;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.footer-top h4 {
+    padding-bottom: 20px;
+}
+
+.footer-top ul li a {
+    color: white;
+    line-height: 2;
+    font-weight: lighter;
 }
 
 .fa-earth-americas {
