@@ -3,7 +3,7 @@
     --black: #000000;
     --white: #ffffff;
     --blue: #0161FF;
-    --light-grey: #F5F5F5;
+    --light-grey: #c7c6c6;
     --purple: #753f63;
     --logo-color-green: #A3D39B;
     --logo-color-burgundy: #61082B;
@@ -164,6 +164,10 @@ p {
     border: 1px solid var(--light-grey);
 }
 
+.bottom-grey {
+    border-bottom: 1px solid var(--light-grey);
+}
+
 /*----header----*/
 
 header {
@@ -180,11 +184,11 @@ header ul li a {
     color: var(--black);
 }
 
-header img {
-    height: ;
-}
-
 /*----main----*/
+
+section {
+    margin-top: 100px;
+}
 
 #jumbo {
     padding-top: 50px;
@@ -198,7 +202,21 @@ header img {
 .button {
     background-color: var(--blue);
     color: var(--white);
-    padding: 10px;
+    padding: 6px 12px;
+}
+
+.big-button {
+    background-color: var(--blue);
+    color: var(--white);
+    display: block;
+    text-align: center;
+}
+
+.button-white {
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);
+    padding: 12px 25px;
 }
 
 .arrow-down {
@@ -210,6 +228,10 @@ header img {
 
 #plans {
     margin-top: 100px;
+}
+
+#plans .fa-ul {
+    margin-left: 20px;
 }
 
 .row {
