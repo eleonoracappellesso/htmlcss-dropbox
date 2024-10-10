@@ -233,16 +233,25 @@ h4 {
 
 header {
     background-color: var(--white);
-    padding: 20px;
+    padding: 0 20px;
     position: fixed;
     width: 100%;
     left: 0;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 -6px 10px 5px var(--black);
 }
 
-header ul li a {
+header nav ul li a {
     color: var(--black);
+    text-decoration: none;
+    display: block;
+    padding: 20px 12px;
+}
+
+header nav ul:first-child li:not(:first-child) a:hover ,
+header nav ul:nth-child(2) li:not(:last-child) a:hover {
+    border-bottom: 2px solid var(--blue);
 }
 
 /*----main----*/
@@ -271,6 +280,11 @@ section,
     background-color: var(--blue);
     color: var(--white);
     padding: 6px 12px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    box-shadow: 5px 5px 5px var(--grey);
 }
 
 .big-button {
@@ -280,6 +294,10 @@ section,
     text-align: center;
 }
 
+.big-button:hover {
+    box-shadow: 5px 5px 5px var(--grey);
+}
+
 .button-white {
     background-color: var(--white);
     color: var(--black);
@@ -287,10 +305,18 @@ section,
     padding: 12px 25px;
 }
 
+.button-white:hover {
+    box-shadow: 5px 5px 5px var(--grey);
+}
+
 .btn-white-no-border {
     background-color: var(--white);
     color: var(--black);
     padding: 12px 25px;
+}
+
+.btn-white-no-border:hover {
+    box-shadow: 5px 5px 5px var(--purple);
 }
 
 .arrow-down {
@@ -378,6 +404,10 @@ section,
 .brand img {
     width: 50%;
     filter: invert(100%);
+}
+
+.effect:hover {
+    opacity: 70%;
 }
 
 #call-to-action {
