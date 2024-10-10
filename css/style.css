@@ -54,6 +54,18 @@ p {
     line-height: 1.5;
 }
 
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    line-height: 5;
+}
+
 /*----utilities----*/
 
 /*.debug {
@@ -223,7 +235,8 @@ header ul li a {
 
 /*----main----*/
 
-section , .customers-brand { 
+section,
+.customers-brand {
     margin-top: 100px;
 }
 
@@ -240,7 +253,7 @@ section , .customers-brand {
 .fa-arrow-down {
     color: var(--black);
     font-weight: bolder;
-} 
+}
 
 .button {
     background-color: var(--blue);
