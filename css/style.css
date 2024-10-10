@@ -29,7 +29,8 @@ html {
 
 body {
     font-family: 'Open sans', sans-serif;
-    color: var(--black)
+    color: var(--black);
+    accent-color: var(--blue);
 }
 
 ul {
@@ -272,6 +273,10 @@ section,
 }
 
 .fa-arrow-down {
+    font-size: 50px;
+    position: absolute;
+    bottom: 110px;
+    left: 15px;
     color: var(--black);
     font-weight: bolder;
 }
@@ -319,13 +324,6 @@ section,
     box-shadow: 5px 5px 5px var(--purple);
 }
 
-.arrow-down {
-    font-size: 50px;
-    position: absolute;
-    bottom: 110px;
-    left: 15px;
-}
-
 #plans {
     margin-top: 100px;
 }
@@ -333,6 +331,8 @@ section,
 #plans .fa-ul {
     margin-left: 20px;
 }
+
+
 
 #features h3 {
     line-height: normal;
